@@ -31,7 +31,7 @@ class Triangle
         return :scalene
       when 4
         return :isosceles
-      when 2 
+      when 9 
         return :equilateral
         
     end
