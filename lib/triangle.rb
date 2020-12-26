@@ -22,7 +22,7 @@ class Triangle
         end
       end
       
-      @sides.collect{|comp_side| compside == side}
+      num_equal = @sides.collect{|comp_side| compside == side}.length
       
     end
     
