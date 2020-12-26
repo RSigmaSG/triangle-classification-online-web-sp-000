@@ -15,11 +15,11 @@ class Triangle
     
     @sides.each do |side| 
       if (side <= 0)
-        begin
+        #begin
           raise TriangleError
-        rescue TriangleError => error
-            puts error.message
-        end
+        #rescue TriangleError => error
+            #puts error.message
+        #end
       end
       
       num_equal += @sides.select{|comp_side| comp_side == side}.length
