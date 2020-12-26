@@ -15,7 +15,7 @@ class Triangle
     
     @sodes.sort
     
-    if (sort[0] + sort[1] < sort[2]) {raise TriangleError}
+    if ((sort[0] + sort[1] )< sort[2]) {raise TriangleError}
     
     @sides.each do |side| 
       if (side <= 0)
