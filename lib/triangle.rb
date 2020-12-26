@@ -13,6 +13,8 @@ class Triangle
     
     num_equal = 0
     
+    @sodes.sort
+    
     @sides.each do |side| 
       if (side <= 0)
         #begin
