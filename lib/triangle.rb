@@ -22,14 +22,14 @@ class Triangle
         end
       end
       
-      num_equal = @sides.collect{|comp_side| compside == side}.length
+      num_equal += @sides.select{|comp_side| comp_side == side}.length
       
     end
     
     case num_equal
       when 0 
         return :scalene
-      when 1
+      when 4
         return :isosceles
       when 2 
         return :equilateral
