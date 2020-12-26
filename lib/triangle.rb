@@ -27,9 +27,9 @@ class Triangle
     end
     
     case num_equal
-      when 0 
+      when 3 
         return :scalene
-      when 4
+      when 5
         return :isosceles
       when 9 
         return :equilateral
