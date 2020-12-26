@@ -13,9 +13,9 @@ class Triangle
     
     num_equal = 0
     
-    @sodes.sort
+    @sides.sort
     
-    if ((sort[0] + sort[1] )< sort[2]) 
+    if ((@sides[0] + @sides[1] )< @sides[2]) 
       raise TriangleError
     end
     
